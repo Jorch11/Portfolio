@@ -7,9 +7,17 @@
 }
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+a{
+    font-size: 1.6rem;
 }
 p{
     text-align: justify;
+    font-size: 1.6rem;
+}
+div{
+    font-size: 1.6rem;
 }
 .contenedor-header{
     background: #1e2326;
@@ -20,17 +28,17 @@ p{
     z-index: 99;
 }
 .contenedor-header header{
-    max-width: 1110px;
+    max-width: 111rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 1.5rem 2rem;
 }
 
 .contenedor-header header .logo a{
     font-family: 'Righteous';
-    font-size: 36px;
+    font-size: 3.6rem;
     color: #1CB69B;
     text-decoration: none;
 }
@@ -42,8 +50,8 @@ p{
 .contenedor-header header nav ul li a{
     text-align: none;
     color: #fff;
-    margin: 0 15px;
-    padding: 3px;
+    margin: 0 1.5rem;
+    padding: 0.3rem;
     transition: .5s;
     text-decoration: none;
 }
@@ -53,8 +61,8 @@ p{
 .nav-responsive{
     background-color: #1CB69B;
     color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     display: none;
 }
@@ -67,27 +75,27 @@ p{
     align-items: center;
 }
 .inicio .contenido-banner{
-    padding: 20px;
+    padding: 2rem;
     background-color: #1e2326;
-    max-width: 350px;
+    max-width: 35rem;
     margin: auto;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 4rem;
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
-    border: 10px solid #1cb698;
+    margin-top: 4rem;
+    border: 1rem solid #1cb698;
     width: 80%;
     margin: auto;
     border-radius: 100%;
 }
 .inicio .contenido-banner h1{
-    margin-top: 30px;
-    font-size: 42px;
+    margin-top: 3rem;
+    font-size: 4.2rem;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: normal
 }
 .inicio .contenido-banner .redes a{
@@ -96,11 +104,11 @@ p{
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    margin: 4rem 0.5rem;
+    font-size: 2rem;
     transition: .3s
 }
 .inicio .contenido-banner .redes a:hover{
@@ -110,22 +118,22 @@ p{
     height: 100vh;
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
 }
 .comomepercibo .contenido-seccion{
-    max-width: 1100px;
+    max-width: 110rem;
     margin: auto;
 }
 .comomepercibo h2{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 .comomepercibo .contenido-seccion p{
-    font: 10px;
-    line-height: 22px;
-    margin-bottom: 20px;
+    font: 1rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
 }
 .comomepercibo .contenido-seccion p span{
     color: #1cb698;
@@ -136,48 +144,48 @@ p{
     justify-content: space-between;
 }
 .comomepercibo .fila img{
-    height: 400px;
+    height: 40rem;
 }
 .comomepercibo .fila .co{
-    margin-left: 200px;
+    margin-left: 20rem;
     width: 50%;
 }
 .comomepercibo .fila .col h3{
     margin-top: 50px;
-    font-size: 28px;
+    font-size: 2.8rem;
     text-align: center;
     font-family: 'Righteous';
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 .comomepercibo .fila .col ul{
     list-style: none;
 }
 .comomepercibo .fila .col ul li{
-    margin: 12px 0;
+    margin: 1.2rem 0;
 }
 .comomepercibo .fila .col ul li strong{
     display: inline-block;
     color: #1cb698;
-    width: 130px;
+    width: 13rem;
 }
 .comomepercibo .fila .col ul li span{
     background-color: #1cb698;
-    padding: 3px;
+    padding: 0.3rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 .comomepercibo .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    margin-left: 200px;
+    margin-left: 20rem;
 }
 .comomepercibo .fila .col .contenedor-intereses .interes{
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     background-color: #252A2E;
-    border-radius: 10px;
-    margin: 0 15px 15px 0;
+    border-radius: 1rem;
+    margin: 0 1.5rem 1.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,78 +196,78 @@ p{
     background-color: #1cb698;
 }
 .comomepercibo .fila .col .contenedor-intereses .interes i{
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 .mifamilia{
     height: 100vh;
     background-color: #272c30;
     color: #fff;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
 }
 .family-tree {
     width: 100%;
     display:block;
-    margin: 50px auto;
+    margin: 5rem auto;
   }
   
   .family-tree .tree-nodo {
     float:left;
-    width: 200px;
-    height: 220px;
+    width: 20rem;
+    height: 22rem;
     position:relative;
   }
   .family-tree .tree-nodo2 {
     float:left;
-    width: 550px;
-    height: 220px;
+    width: 55rem;
+    height: 22rem;
     position:relative;
   }
   .family-tree .tree-nodo3 {
-    margin-left: 50px;
+    margin-left: 5rem;
     float:left;
-    width: 550px;
-    height: 220px;
+    width: 55rem;
+    height: 22rem;
     position:relative;
   }
   
   .family-tree .tree-ejemplar {
     width: 50%;
-    height:200px;
+    height:20rem;
     display: block;
     position:relative;
-    border-right:1px solid gray;
-    margin:20px 0;
+    border-right:0.1rem solid gray;
+    margin:2rem 0;
   }
   
   .family-tree .tree-padres {
     width: 100%;
-    height:100px;
+    height:10rem;
     display: flex;
     position:relative;
-    margin:10px 0;
-    border-right:1px solid gray;
+    margin:1rem 0;
+    border-right:0.1rem solid gray;
   }
   .family-tree .tree-padres .infofam{
     display: flex;
-    width: 1000px;
+    width: 100rem;
     flex-direction: column;
   }
   .family-tree .tree-padres img{
-    height: 100px;
+    height: 10rem;
     border-radius: 100%;
   }
   .family-tree .tree-abuelos {
     width: 100%;
-    height:110px;
+    height:11rem;
     display: flex;
     position:relative;
-    margin:5px 0;
+    margin:0.5rem 0;
   }
   #mama{
-    margin-right: 22px;
+    margin-right: 2.2rem;
   }
   #pmama p{
     padding: 0 0;
@@ -267,16 +275,16 @@ p{
 
   .family-tree .tree-abuelos .infofam{
     display: flex;
-    width: 1000px;
+    width: 100rem;
     flex-direction: column;
   }
   .family-tree .tree-abuelos img{
-    height: 100px;
+    height: 10rem;
     border-radius: 100%;
   }
   .family-tree p {
     line-height: normal;
-    padding: 0 15px;
+    padding: 0 1.5rem;
     width: 100%;
     position: absolute;
     top: 50%;
@@ -288,21 +296,21 @@ p{
     */ 
   }
   .seccion-masmegusta{
-    max-width: 1100px;
+    max-width: 110rem;
     margin: auto;
   }
   .seccion-masmegusta h2{
-    font-size: 42px;
+    font-size: 4.2rem;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
   }
   .motivacion{
     display: flex;
     background-color: #1e2326;
     height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
     flex-direction: row;
@@ -311,10 +319,10 @@ p{
     flex-wrap: nowrap;
   }
   .motivacion h2{
-    font-size: 42px;
+    font-size: 4.2rem;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
   }
   .motivacion .contenido-motivacion{
     width: 35%;
@@ -324,14 +332,14 @@ p{
     flex-direction: column;
   }
   .motivacion img{
-    height: 400px;
+    height: 40rem;
   }
   .proyeccion{
     display: flex;
-    background-color: #1e2326;
+    background-color: #272c30;
     height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
     flex-direction: row;
@@ -340,10 +348,10 @@ p{
     flex-wrap: nowrap;
   }
   .proyeccion h2{
-    font-size: 42px;
+    font-size: 4.2rem;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
   }
   .proyeccion .contenido-proyeccion{
         width: 35%;
@@ -353,14 +361,14 @@ p{
         flex-direction: column;
   }
   .proyeccion img{
-    height: 400px;
+    height: 40rem;
   }
 .misretos{
     display: flex;
     background-color: #1e2326;
     height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
     flex-direction: row;
@@ -369,10 +377,10 @@ p{
     flex-wrap: nowrap;
 }
 .misretos h2{
-    font-size: 42px;
+    font-size: 4.2rem;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
   }
   .misretos .contenido-misretos{
     width: 35%;
@@ -382,14 +390,14 @@ p{
     flex-direction: column;
   }
 .misretos img{
-    height: 600px;
+    height: 60rem;
 }
 .fortalezas{
     display: flex;
-    background-color: #1e2326;
+    background-color: #192229;
     height: 100vh;
     color: #fff;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
     flex-direction: row;
@@ -398,10 +406,10 @@ p{
     flex-wrap: nowrap;
 }
 .fortalezas h2{
-    font-size: 42px;
+    font-size: 4.2rem;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
   }
 .fortalezas .contenido-fortalezas{
     width: 63%;
@@ -411,7 +419,7 @@ p{
     flex-direction: column;
 }
   .fortalezas img{
-    height: 400px;
+    height: 40rem;
   }
 
 
@@ -420,11 +428,11 @@ p{
     flex-wrap: wrap;
 }
 .fortalezas .contenido-fortalezas .contenedor-fortalezas .fortaleza{
-    width: 295px;
-    height: 125px;
+    width: 29.5rem;
+    height: 12.5rem;
     background-color: #252A2E;
-    border-radius: 10px;
-    margin: 0 15px 15px 0;
+    border-radius: 1rem;
+    margin: 0 1.5rem 1.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -435,22 +443,22 @@ p{
     background-color: #1cb698;
 }
 .fortalezas .contenido-fortalezas .contenedor-fortalezas .fortaleza i{
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 footer{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 0 30px 0;
+    padding: 5rem 0 3rem 0;
     text-align: center;
     position: relative;
     width: 100%;
 }
 footer .arriba{
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-color: #1CB698;
     color: #fff;
     position: absolute;
@@ -458,6 +466,6 @@ footer .arriba{
     transform: translateX(-50%);
     top: -25px ;
     border-radius:50% ;
-    line-height: 50px;
-    font-size: 18px;
+    line-height: 5rem;
+    font-size: 1.8rem;
 }
