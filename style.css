@@ -102,7 +102,8 @@ div{
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1
+        solid #fff;
     border-radius: 100%;
     width: 4.2rem;
     height: 4.2rem;
@@ -151,7 +152,7 @@ div{
     width: 50%;
 }
 .comomepercibo .fila .col h3{
-    margin-top: 50px;
+    margin-top: 5rem;
     font-size: 2.8rem;
     text-align: center;
     font-family: 'Righteous';
